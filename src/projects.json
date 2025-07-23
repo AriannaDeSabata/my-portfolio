@@ -15,7 +15,7 @@
     "title": "Netflix UI Clone",
     "img-cover": "/assets/clone-netflix-cover.png",
     "img-info": ["/assets/clone-netflix.png", "/assets/netflix-mobile.png"],
-    "link-wesite": "https://netflix-clone-theta-lime.vercel.app/",
+    "link-wesite": "",
     "info":"Interfaccia realizzata con HTML, CSS e JavaScript.",
     "description": "Replica dell'interfaccia utente di Netflix realizzata come esercitazione durante il corso Epicode. Il progetto è stato sviluppato utilizzando HTML, CSS e JavaScript. Si tratta di una single-page application (SPA) non funzionale, pensata per esercitarsi nella costruzione di layout responsive.",
     "type-projects": "",
