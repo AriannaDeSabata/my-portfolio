@@ -1,0 +1,20 @@
+
+.contContacts{
+    border:0.5px solid #abb2bf46;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+
+}
+.contContacts p{
+    margin: 0;
+}
+.contacts{
+    display: flex ;
+    gap:10px
+}
+a.contacts{
+    text-decoration: none;
+    color: violet;
+}

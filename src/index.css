@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body,html, #root{
+  background-color: #212529;
+  color: #ABB2BF;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) {
+  body,html, #root{
+      font-size: 12px;
+  }
+}
+
+.contBody{
+  padding-top: 100px;
+}

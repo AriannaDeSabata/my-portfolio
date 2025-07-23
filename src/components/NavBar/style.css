@@ -1,0 +1,47 @@
+@import '../../animation.css';
+
+
+.cont{
+    width: 100%;
+}
+
+.contNav, .contBtnNav{
+    width: 100%;
+    display: flex;
+
+}
+.contNav{
+    justify-content: center;
+}
+
+.contBtnNav{
+    justify-content: end;
+}
+
+.link{
+    animation: jump 0.5s ease 0.5s forwards ;
+}
+
+.link2{
+    animation-delay: 0.6s;
+}
+.link3{
+    animation-delay: 0.7s;
+}
+.link4{
+    animation-delay: 0.8s;
+}
+.link5{
+    animation-delay: 0.9s;
+}
+
+
+.navbar {
+  animation: slideInFromLeftNav 0.7s ease forwards;
+
+}
+
+.offcanvas {
+    top: 0;
+    right: 0;
+}

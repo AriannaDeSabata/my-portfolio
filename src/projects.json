@@ -1,0 +1,35 @@
+[
+{
+    "name": "PingUp",
+    "title": "PingUp",
+    "img-cover": "/assets/pingUp-screenshot.png",
+    "img-info": ["/assets/pingup-map.png","/assets/pingup-profile.png", "/assets/pingup-chat.png"],
+    "link-wesite": "https://ping-up-five.vercel.app/",
+    "info":"Web app per organizzare e partecipare ad attività sportive geolocalizzate.",
+    "description": "Applicazione full-stack sviluppata con React per il frontend e Node.js/Express per il backend. Include funzionalità di geolocalizzazione, profili utente, chat in tempo reale e gestione eventi. È possibile visualizzare il sito tramite il link sottostante al titolo, per accedere all'applicazione è necessaria la registrazione, ma si possono utilizzare credenziali di test.",
+    "type-projects": "",
+    "link-github": "https://github.com/AriannaDeSabata/PingUp.git"
+},
+{
+    "name": "netflix-clone",
+    "title": "Netflix UI Clone",
+    "img-cover": "/assets/clone-netflix-cover.png",
+    "img-info": ["/assets/clone-netflix.png", "/assets/netflix-mobile.png"],
+    "link-wesite": "https://netflix-clone-theta-lime.vercel.app/",
+    "info":"Interfaccia realizzata con HTML, CSS e JavaScript.",
+    "description": "Replica dell'interfaccia utente di Netflix realizzata come esercitazione durante il corso Epicode. Il progetto è stato sviluppato utilizzando HTML, CSS e JavaScript. Si tratta di una single-page application (SPA) non funzionale, pensata per esercitarsi nella costruzione di layout responsive.",
+    "type-projects": "",
+    "link-github": "https://github.com/AriannaDeSabata/Netflix-clone.git"
+},
+{
+    "name": "EpiBooks",
+    "title": "EpiBooks React App",
+    "img-cover": "/assets/epiBooks-cover.png",
+    "img-info": ["/assets/epiBooks.png", "/assets/epiBooks-details.png"],
+    "link-wesite": "https://epibooks-nu.vercel.app/",
+    "info": "Interfaccia realizzata con React e Fetch API per la gestione di una raccolta di libri.",
+    "description": "Applicazione React sviluppata durante il corso Epicode. Il progetto include funzionalità come la ricerca dei libri, la visualizzazione dei dettagli e la possibilità di lasciare commenti, il tutto gestito tramite chiamate API e gestione dello stato locale dei componenti.",
+    "type-projects": "",
+    "link-github": "https://github.com/AriannaDeSabata/epibooks.git"
+}
+]

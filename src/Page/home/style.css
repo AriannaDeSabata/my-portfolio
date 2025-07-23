@@ -1,0 +1,72 @@
+@import '../../animation.css';
+
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.title h1, h2{
+    color: #fff;
+
+}
+
+.title h3{
+    color: violet;
+}
+
+.status{
+    position: relative;
+    border: 0.5px solid #abb2bf34;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 12px;
+    transform: translateX(100vh);
+    animation: slideInFromRight 0.6s ease-out forwards;
+    animation-delay: 2s;
+}
+.status p{
+    margin: 0;
+}
+
+.welcome, .me, .job{
+    opacity: 0;
+    animation: showText 6s ease forwards;
+}
+.welcome{
+    animation-delay: 0.5s;
+}
+.me{
+    animation-delay: 1s;
+}
+.job{
+    animation-delay: 1.3s;
+}
+
+.info {
+    opacity: 0;
+    transform: translateX(-100vh);
+    animation: slideInFromLeft 0.6s ease-out forwards;
+    animation-delay: 1.5s;
+    text-align: right;
+
+}
+
+#contacts, #skills, #projects{
+    opacity: 0;
+    animation: showText 3s ease forwards 2s;
+}
+
+#info{
+    position: relative;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 575px) {
+    .info, .title{
+        text-align: left;
+    }
+
+}
