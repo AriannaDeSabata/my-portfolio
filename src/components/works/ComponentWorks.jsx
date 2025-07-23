@@ -15,7 +15,7 @@ export default function ComponentWorks() {
     const element = document.getElementById('projectsInfo')
     const y = element.getBoundingClientRect().top + window.scrollY
     window.scrollTo({
-      top: y -400 ,
+      top: y -100 ,
       behavior: 'smooth'
     })
   }
