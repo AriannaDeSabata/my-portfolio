@@ -28,7 +28,7 @@ export default function Home() {
               <span className='hand'>
                   👉
               </span>
-                <a href='#'>
+                <a href='https://github.com/AriannaDeSabata/my-portfolio.git'>
                 <i className="bi bi-github"></i>
                     Guarda su GitHub
                 </a>
