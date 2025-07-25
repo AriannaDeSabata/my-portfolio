@@ -28,7 +28,14 @@ export default function ComponentWorks() {
       <Row className='g-5'>
         {projects.map(el =>(
           <Col xs={12} md={6} xl={4} key={el.title}className='cont-projects  '>
-            <img src={`${el['img-cover']}`}  className='img-cover' alt='img-cover'/>
+            {el['link-wesite'] !== "" && (
+              <a href={`${el['link-wesite']}`}>
+                <img src={`${el['img-cover']}`}  className='img-cover' alt='img-cover'/>
+              </a>
+            )}
+            {el['link-wesite'] === "" && (
+                <img src={`${el['img-cover']}`}  className='img-cover' alt='img-cover'/>
+            )}
             <button className='btn-show-info ' onClick={()=>{
                   setShowProject(el.name)
                   scrollDown()
