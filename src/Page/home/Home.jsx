@@ -14,7 +14,7 @@ export default function Home() {
         <Col xs={12} className='title'>
           <h1 className='welcome'>Benvenuto nel mio portfolio</h1>
           <h2 className='me'>Io sono Arianna De Sabata</h2>
-          <h3 className='job'>Web Developer Full Stack</h3>
+          <h3 className='job'>Full Stack Web Developer</h3>
         </Col>
         <Col xs={12} sm={6} md={7} xl={8} className='info pe-xl-5'>
           <p>Ho iniziato il mio percorso come Junior Web Developer completando due corsi specializzati. Durante il mio percorso formativo ho realizzato diversi progetti scolastici, sia frontend che backend, esercitandomi nella creazione di interfacce responsive, funzionali e animate, con particolare attenzione all’esperienza utente.
