@@ -17,7 +17,7 @@ export default function Home() {
           <h3 className='job'>Full Stack Web Developer</h3>
         </Col>
         <Col xs={12} sm={6} md={7} xl={8} className='info pe-xl-5'>
-          <p>Ho iniziato il mio percorso come Junior Web Developer completando due corsi specializzati. Durante il mio percorso formativo ho realizzato diversi progetti scolastici, sia frontend che backend, esercitandomi nella creazione di interfacce responsive, funzionali e animate, con particolare attenzione all’esperienza utente.
+          <p>Ho iniziato il mio percorso come Junior Web Developer completando due corsi specializzati. Durante il mio percorso formativo ho realizzato diversi progetti, sia frontend che backend, esercitandomi nella creazione di interfacce responsive, funzionali e animate, con particolare attenzione all’esperienza utente.
           Ora sono alla ricerca di un’opportunità per entrare nel mondo dello sviluppo web e continuare a crescere professionalmente.</p>
         </Col>
 

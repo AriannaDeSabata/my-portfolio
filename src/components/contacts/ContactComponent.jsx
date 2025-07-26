@@ -20,7 +20,10 @@ export default function ContactComponent() {
                     <p>desabatarianna@gmail.com</p>
                 </a>
 
-
+                <a href='https://github.com/AriannaDeSabata' className='contacts'>
+                    <i class="bi bi-github"></i>
+                    <p>AriannaDeSabata</p>
+                </a>
         </Col>
     </Row>
   )

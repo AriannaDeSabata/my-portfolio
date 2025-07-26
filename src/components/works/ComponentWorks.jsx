@@ -15,7 +15,7 @@ export default function ComponentWorks() {
     const element = document.getElementById('projectsInfo')
     const y = element.getBoundingClientRect().top + window.scrollY
     window.scrollTo({
-      top: y  ,
+      top: y  -150,
       behavior: 'smooth'
     })
   }
@@ -28,15 +28,8 @@ export default function ComponentWorks() {
       <Row className='g-5'>
         {projects.map(el =>(
           <Col xs={12} md={6} xl={4} key={el.title}className='cont-projects  '>
-            {el['link-wesite'] !== "" && (
-              <a href={`${el['link-wesite']}`}>
-                <img src={`${el['img-cover']}`}  className='img-cover' alt='img-cover'/>
-              </a>
-            )}
-            {el['link-wesite'] === "" && (
-                <img src={`${el['img-cover']}`}  className='img-cover' alt='img-cover'/>
-            )}
-            <button className='btn-show-info ' onClick={()=>{
+              <img src={`${el['img-cover']}`}  className='img-cover' alt='img-cover'/>
+                <button className='btn-show-info ' onClick={()=>{
                   setShowProject(el.name)
                   scrollDown()
                   }}>
